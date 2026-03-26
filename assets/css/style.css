@@ -1,0 +1,74 @@
+#title {
+  font-size: 2rem;
+  line-height: 80px;
+  font-weight: 300;
+}
+
+#title-box {
+  background-color: var(--lilac);
+  color: var(--black);
+  padding: 1rem;
+  margin-top: 3rem;
+  width: 280px;
+  height: 80px;
+  display: inline-block;
+  opacity: 70%;
+}
+
+#icon {
+  margin: 2rem 0;
+}
+
+#icon-img {
+  border-radius: 50%;
+}
+
+#link-box {
+  margin-top: 3rem;
+  display: inline-block;
+  width: 320px;
+  background-color: var(--lilac);
+}
+
+.link-box {
+  background-image: url('../img/fundo4.jpg');
+  background-repeat: repeat;
+  }
+
+.link-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.link-item {
+  padding: 1rem 0.5rem;
+  transition: color 0.3s ease;
+  background-color: var(--black);
+  margin-bottom: 14px;
+  color: var(--black);
+}
+
+.link-item:hover {
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 10px 0px;
+  transition: background-color 0.3s ease;
+  text-shadow: white 0px 0px 2px;
+}
+
+.card-vidro {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px); /* Compatibilidade Safari */
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,46 @@
+:root {
+  --black: #111111;
+  --lilac: #dcd4eb;
+  --white: #fff;
+  --red: #e21;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: var(--black);
+  background-image: url('../img/fundo4.jpg');
+  background-color: var(--lilac);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.moving-background {
+  background-image: url('../img/fundo4.jpg');
+  background-repeat: repeat;
+  animation: slideBackground 150s linear infinite;
+}
+
+@keyframes slideBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0 100%; }
+}
+
+footer {
+  background-color: var(--white);
+  padding: 3rem;
+  
+}
